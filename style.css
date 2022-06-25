@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: whitesmoke;
+    height: 100vh;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+}
+
+.opening-container{
+    background-image: url(./images/her.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.hero-container{
+    background-color: rgba(0, 0, 0, 0.333);
+    height: 100vh;
+    width: 100vw;
+}
+.header{
+    width: 100vw;
+    background-color: transparent;
+}
+
+.header > ul{
+    display: flex;
+    list-style-type: none;
+    display: flex;
+    gap: 3vw;
+    font-size: 1.5em;
+    font-family: 'roboto',sans-serif;
+    padding-top: 3vw;
+    padding-left: 3vw;
+}
+
+.header> ul> li> a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s;
+    padding: 0.3em;
+    cursor: pointer;
+}
+.header>ul>li>a:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+.opening-text{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto', sans-serif;
+}
+
+.logo{
+    font-size: 5em;
+    color: white;
+    font-family: 'roboto',sans-serif;
+    font-weight: 900;
+    transition: all 1s;
+    text-decoration: none;
+}
+.logo:hover{
+    color: rgb(180, 140, 32);
+}
+.logo-sub-text > a{
+    font-size: 2em;
+    color: #e3e3e3;
+    font-family: 'roboto',sans-serif;
+    margin-top: 1.3em;
+    transition: all 1s;
+    text-decoration: none;
+}
+.logo-sub-text > a:hover{
+    color: yellowgreen;
+}
+
+
+.info-element{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2em;
+    font-family: 'roboto';
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 2vh;
+}
+.title{
+    color: #6a603b;
+    font-size: 2em;
+}
+
+.info-text{
+    padding: 3em;
+    width: 50vw;
+    font-size: 0.7em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vh;
+    color: rgb(67, 66, 66);
+    line-height: 40px;
+}
+
+.info-element > img{
+    height: 97vh;
+    width: 50vw;
+    object-fit: cover;
+}
+
+#preserving{
+    display: flex;
+
+}
+.preserving-image{
+    width: 30vw;
+    height: 150vh;
+    object-fit: cover;
+}
+.preserving-text{
+    display: flex;
+    flex-direction: column;
+    padding: 4em;
+}
+.preserving-text-sub{
+    font-size: 1.5em;
+    color: rgb(67, 66, 66);
+}
+.preserving-text-sub > ul {
+    font-family: 'roboto',sans-serif;
+    list-style-type: circle;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    line-height: 40px;
+}
+.preserving-text-sub>ul>li{
+    line-height: 40px;
+    font-size: 0.8em;
+}
