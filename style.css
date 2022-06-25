@@ -122,17 +122,23 @@ body{
 
 #preserving{
     display: flex;
-
+    height: 170vh;
 }
 .preserving-image{
     width: 30vw;
-    height: 150vh;
+    height: 100%;
     object-fit: cover;
 }
 .preserving-text{
     display: flex;
     flex-direction: column;
-    padding: 4em;
+    justify-content: flex-start;
+    gap: 5vh;
+    padding: 3em;
+    margin-left: 1em; 
+    margin-top: 1.5em;
+    font-family: 'robot';
+    line-height: 40px;
 }
 .preserving-text-sub{
     font-size: 1.5em;
